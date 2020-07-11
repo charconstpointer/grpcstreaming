@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fuji", "Fuji\Fuji.csproj", "{33CA8627-C6E1-42D4-8CA0-4F3ED6585070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fuji.Server", "Fuji.Server\Fuji.Server.csproj", "{CE4AF7A4-66B9-4D25-967D-12A3A81E324F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33CA8627-C6E1-42D4-8CA0-4F3ED6585070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CA8627-C6E1-42D4-8CA0-4F3ED6585070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CA8627-C6E1-42D4-8CA0-4F3ED6585070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CA8627-C6E1-42D4-8CA0-4F3ED6585070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4AF7A4-66B9-4D25-967D-12A3A81E324F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4AF7A4-66B9-4D25-967D-12A3A81E324F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4AF7A4-66B9-4D25-967D-12A3A81E324F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4AF7A4-66B9-4D25-967D-12A3A81E324F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Worker.Schedule";
+
+package notifications;
+
+service Notifications {
+  rpc Notify (CurrentTrackRequest) returns ( CurrentTrackResponse);
+  rpc Listen (stream ListenRequest) returns (stream ListenResponse);
+}
+
+message ListenRequest {
+    int32 count = 1;
+}
+
+message ListenResponse {
+    int32 payload = 1;
+}
+
+
+
+message CurrentTrackRequest {
+  int32 channelId = 1;
+}
+
+message CurrentTrackResponse {
+}
